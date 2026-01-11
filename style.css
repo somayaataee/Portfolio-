@@ -30,17 +30,22 @@
     width: 110px;
 }
 .header-img{
-    height: 90%;
-    width: 150%;
+    height: 60%;
+    width: 90%;
+    border: 2px solid cadetblue;
+    padding: 10px;
+    margin: 20px;
    
 }
 .content-header{
     color: black;
     margin: 40% 0 40%  20% ;
 }
+.social-media{
+    text-align: center;
+}
 .social-media a{
     color:white ;
-    margin-left: 15% ; 
     border-radius: 50%;
     background-color: cadetblue;
     padding: 13px;
