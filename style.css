@@ -3,6 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ------------------------------------navbar--------------------------- */
+.logo {    
+    margin-right: 50%;
+}
 .nav{
     background-color: cadetblue;
+    padding: 15px;
+}
+.nav-link{
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+/* -----------------------------------header------------------------------------------- */
+.container{
+    margin:40px auto;
+}
+.line{
+    background-color: cadetblue;
+    height: 5px;
+    width: 110px;
+}
+.header-img{
+    height: 90%;
+    width: 150%;
+   
+}
+.content-header{
+    color: black;
+    margin: 40% 0 40%  20% ;
+}
+.social-media a{
+    color:white ;
+    margin-left: 15% ; 
+    border-radius: 50%;
+    background-color: cadetblue;
+    padding: 13px;
+
 }
