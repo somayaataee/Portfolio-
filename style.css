@@ -16,6 +16,10 @@
     margin-right: 10px;
     font-size: 18px;
 }
+.nav-link:hover{
+    color: rgb(20, 71, 73);
+    text-decoration: underline;
+}
 /* -----------------------------------header------------------------------------------- */
 .container{
     margin:40px auto;
@@ -40,5 +44,46 @@
     border-radius: 50%;
     background-color: cadetblue;
     padding: 13px;
-
+}
+.social-media a:hover{
+    background-color:white ;
+    color: cadetblue;
+    transition: 0.8s;
+}
+/* .btn{
+    border-radius: 10%;
+    border: 1px solid cadetblue;
+}
+.btn0::before{
+    content: "";
+    position: absolute;
+    color: blue;
+} */
+  .btn{
+    margin-left:6px;
+    display: inline-flex;
+    position: relative;
+    color: cadetblue;
+    font-weight: bold;   
+     border: .64px solid cadetblue;
+    border-radius: 25.6px; 
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow:hidden;
+ }
+ .btn::before{
+    content: '';
+    position: absolute;
+    background:cadetblue;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .7s;
+}
+ .btn:hover::before{
+    width: 100%;
 }
