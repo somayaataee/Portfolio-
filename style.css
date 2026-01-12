@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    color: white;
+    background-color: black;
+}
 /* ------------------------------------navbar--------------------------- */
 .logo {    
     margin-right: 50%;
@@ -99,19 +103,51 @@
 }
 /* ------------------------------------about section--------------------- */
 .sec-about{
-    /* min-height: 50vh; */
+    min-height: 50vh;
 }
 .abot-title{
     text-align: center;
 }
-.abot-title span,th{
+.abot-title span{
     color: cadetblue;
     text-decoration: underline;
 }
 .about-para{
     border-right: 2px solid cadetblue;
 }
-table, th, td {
-  /* border:2px solid black; */
-  padding: 10px;
+table th{
+    color:cadetblue ;
 }
+table, td {
+  padding: 10px;
+  color: white;
+   justify-content: center;
+  align-items: center;
+  margin-top:55px ;
+}
+.card{
+    height: 150px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0px -1px 5px 5px rgb(151, 223, 225) ;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+}
+.card-img-top{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.container .col-md-3 .btn1{
+    background-color:cadetblue ;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px;
+    border-radius: 50px;
+    cursor:default;
+}
+/* -----------------------------galllary--------------------------- */
