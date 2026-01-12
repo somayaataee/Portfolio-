@@ -41,38 +41,31 @@ body{
 .header-img{
     height: 60%;
     width: 90%;
-    border: 2px solid cadetblue;
+    border: 1px solid cadetblue;
     padding: 10px;
     margin: 20px;
+    border-radius: 50px;
    
 }
 .content-header{
     color: black;
     margin: 40% 0 40%  20% ;
 }
-.social-media{
+.home .social-media{
     text-align: center;
 }
-.social-media a{
+.home .social-media a{
     color:white ;
     border-radius: 50%;
     background-color: cadetblue;
     padding: 13px;
 }
-.social-media a:hover{
+.home .social-media a:hover{
     background-color:white ;
     color: cadetblue;
     transition: 0.8s;
 }
-/* .btn{
-    border-radius: 10%;
-    border: 1px solid cadetblue;
-}
-.btn0::before{
-    content: "";
-    position: absolute;
-    color: blue;
-} */
+
   .btn{
     margin-left:6px;
     display: inline-flex;
@@ -103,7 +96,8 @@ body{
 }
 /* ------------------------------------about section--------------------- */
 .sec-about{
-    min-height: 50vh;
+    min-height: 80vh;
+     margin: 50px;
 }
 .abot-title{
     text-align: center;
@@ -152,20 +146,45 @@ table, td {
 }
 /* -----------------------------galllary--------------------------- */
 .sec-gallery{
-    min-height: 50vh;
+    min-height: 100vh;
     text-align: center;
+    margin: 50px;
 }
 .sec-gallery .card{
     height: 200px;
     width: 200px;
     margin: 10px;
-        box-shadow: 0px 0px 3px 3px rgb(151, 223, 225) ;
-
-
-
+    box-shadow: 0px 0px 3px 3px rgb(151, 223, 225) ;
+    transition: all 0.7s;
+}
+.sec-gallery .card:hover{
+    transform: scale(1.1);
 }
 .sec-gallery .card-img{
     height: 200px;
     width: 200px;
     object-fit:fill;
+}
+/* -------------------------------contact page-------------------- */
+.sec-contact{
+    background-color: cadetblue;
+    color: black;
+}
+form input,textarea{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid cadetblue;
+}
+.sec-contact .social-media a{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+.sec-contact a .btn4{
+    color: cadetblue;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
 }
