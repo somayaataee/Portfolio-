@@ -125,7 +125,7 @@ table, td {
   align-items: center;
   margin-top:55px ;
 }
-.card{
+.sec-about .card{
     height: 150px;
     width: 200px;
     justify-content: center;
@@ -136,12 +136,12 @@ table, td {
     background-color: cadetblue;
     border: none;
 }
-.card-img-top{
+.sec-about .card-img-top{
     height: 80px;
     width: 80px;
     border-radius: 50%;
 }
-.container .col-md-3 .btn1{
+.sec-about .container .col-md-3 .btn1{
     background-color:cadetblue ;
     border: 1px solid white;
     color: white;
@@ -151,3 +151,21 @@ table, td {
     cursor:default;
 }
 /* -----------------------------galllary--------------------------- */
+.sec-gallery{
+    min-height: 50vh;
+    text-align: center;
+}
+.sec-gallery .card{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+        box-shadow: 0px 0px 3px 3px rgb(151, 223, 225) ;
+
+
+
+}
+.sec-gallery .card-img{
+    height: 200px;
+    width: 200px;
+    object-fit:fill;
+}
